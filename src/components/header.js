@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,8 +11,16 @@ import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = (props) => {
   return(
-    <header>
-        hello
+    <header className = "header">     
+       <img className="logo" src="./Images/logo1.png"></img>        
+      <nav className ="headerMenu">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Form</a>
+      </nav>
+      
+       
     </header>
    )
 
