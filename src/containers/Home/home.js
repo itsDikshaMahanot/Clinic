@@ -10,9 +10,7 @@ const Home = (props) => {
   return(
     <div>
           <h1>Home</h1>
-          <h2>
-              hrllooo
-          </h2>
+          <img src="public/Images/massage.jpg"></img>
    </div>
    )
 

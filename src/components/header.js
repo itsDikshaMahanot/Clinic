@@ -18,8 +18,8 @@ const Header = (props) => {
         <Col md={2} sm={5}> <h4 className="">Clinic</h4></Col>
       </Row>
       <nav className="headerMenu">
-        <a href="/home.js">Home</a>
-        <a href="/about.js">About</a>
+        <a href="home.js">Home</a>
+        <a href="about.js">About</a>
         <a href="#">Contact Us</a>
         <a href="#">Form</a>
       </nav>

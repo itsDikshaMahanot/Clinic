@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -12,19 +11,16 @@ function App() {
     <React.Fragment>
       <Router>
         <div className="App-header">
-          <Header />          
+          <Header />
         </div>
         <Switch>
-            <Route path='/about' component={About} />
-            <Route path='/' component={Home} />
-          </Switch>
+          <Route path="/home.js" component={Home} />
+          <Route path="/about.js" component={About} />
+        </Switch>
       </Router>
-      <div>
-        <Home />
-      </div>
     </React.Fragment>
 
-  );
+  ); 
 }
 
 export default App;
