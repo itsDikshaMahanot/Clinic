@@ -1,21 +1,29 @@
 .header {
-    display: flex;
+    display:flex;
     margin: 2px 0px;  
     justify-content: space-between;
+    position: sticky;
     
 }
 
 .logo{
-    width:100%;   
+    width:80%;   
     margin: 10px 20px;
 }
 
+
 .headerMenu a
 {
-    display: inline-block;
-    margin: 22px 5px;
+    display: inline-flex;
+    margin: 20px 10px;
     color: whitesmoke;
-    font-size: 90%;
+    font-size: 80%;
+    border-style: solid;
+    border-width: 0.1ch;
+    border-radius: 5%;
+    border-left: 5ch;
+    border-right: 5ch;
+    justify-content: space-between;
 }
 
 .headerMenu a:hover{
@@ -23,7 +31,8 @@
 
 }
 
-h4{
-    display: inline-block;
-    margin: 20px 0;
+h2{
+  display: flex;
+  padding: 1.5%;
+    
 }

@@ -18,6 +18,7 @@ function App() {
           <Route path="/about.js" component={About} />
         </Switch>
       </Router>
+      
     </React.Fragment>
 
   ); 

@@ -1,4 +1,6 @@
 import React from 'react';
+import Content from '../../components/content';
+import './about.css';
 
 /**
 * @author
@@ -7,8 +9,9 @@ import React from 'react';
 
 const About = (props) => {
   return(
-    <div>
-          <h1>About US</h1>          
+    <div className ="my-container">
+          <h1>About US</h1> 
+          HEllo to background       
     </div>
    )
 
