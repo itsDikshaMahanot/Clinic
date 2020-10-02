@@ -17,8 +17,7 @@ function App() {
           <Route path="/home.js" component={Home} />
           <Route path="/about.js" component={About} />
         </Switch>
-      </Router>
-      
+      </Router>      
     </React.Fragment>
 
   ); 

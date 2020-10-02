@@ -12,13 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = (props) => {
   return (
     <React.Fragment>
-      <div className="container">
-        In the criminal justice system, the people are represented by two separate
-        yet equally important groups. The police who investigate crime and the district attorneys
-        who prosecute the offenders.
-        These are their stories.
-      </div>
-      <div className="back">
+     <div className="back">
         <h1>About Naturopathy</h1>
         <p>
           Naturopathy or naturopathic medicine is a form of alternative medicine that employs an array of
@@ -31,7 +25,10 @@ const Home = (props) => {
         </p>
         <Row>
           <Col md={2} sm={5}> <img className="profile" src="../images/pic1.jpg" alt="Profile"></img></Col>
-          <Col md={10} sm={7}> <h2 className="profilecontent">This Dr Sonal Chopra .<br /> The Awesome NAutropathy</h2></Col>
+          <Col md={10} sm={7}> <h2 className="profilecontent">This Dr Sonal Chopra .<br /> In the criminal justice system, the people are represented by two separate
+        yet equally important groups. The police who investigate crime and the district attorneys
+        who prosecute the offenders.
+        These are their stories.</h2></Col>
         </Row>
       </div>
 

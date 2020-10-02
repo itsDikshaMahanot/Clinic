@@ -1,14 +1,35 @@
 .back{
-    background-image: url('G:/Clinic/src/images/green.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    background: white;
+    overflow: hidden;
     font-size: larger;
 }
+    
+.back:before {
+    content: ' ';
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('G:/Clinic/src/images/doodle.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
 
 .images{
   width:50%;
- 
-  
 }
 
 p{
