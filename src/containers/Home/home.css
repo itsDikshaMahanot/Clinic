@@ -44,9 +44,7 @@
     font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
 }
-.images{
-  width:50%;
-}
+
  h2{  
     margin: 2.5% 0;
     }
@@ -67,16 +65,6 @@
 .row{
     margin: 5% 0;
 }
-
-/* .carouselPic {
-    width: 90%;
-    outline-style: groove;
-    outline-width: 2%;
-    outline-offset: 0.5ch;
-    outline-color: black;
-    margin: 20px 50px;
-} */
-
 .bg-text {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -87,4 +75,9 @@
     width: 80%;
     padding: 20px;
   }
+
+.images{
+   height: 80%;
+}
+
 

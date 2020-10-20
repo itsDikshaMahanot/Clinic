@@ -1,6 +1,6 @@
 import React from 'react';
-import Content from '../../components/content';
 import './about.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
 * @author
@@ -9,10 +9,12 @@ import './about.css';
 
 const About = (props) => {
   return(
-    <div className ="my-container">
-          <h1>About US</h1> 
-          HEllo to background       
+  <React.Fragment>
+    <div className="container">
+      <h1 className="text-center">Hello</h1>
     </div>
+
+  </React.Fragment>
    )
 
  }
