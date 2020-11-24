@@ -16,29 +16,29 @@ const Home = (props) => {
             <div className="my-container">
                 <div className="row">
                     <div className="col-sm-12">
-                        <Carousel className="carouselInner" >
+                        <Carousel className="carousel col-sm-12" >
                             <Carousel.Item >
-                                <img className="d-block w-100" src="https://dev.rodpub.com/images/178/915_main.jpg" alt="image1"></img>
+                                <img className="" width={1500} height={350} src="https://dev.rodpub.com/images/178/915_main.jpg" alt="image1"></img>
                                 <Carousel.Caption>
                                     <h3>First slide label</h3>
                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
-                            {/* <Carousel.Item >
-                                <img className="d-block w-100" src ="https://images.creativemarket.com/0.1.0/ps/7072219/910/456/m1/fpnw/wm1/k8hiz26iu7xe24vqst7qavteq8cjllf5ndhdw9yxn4q5kwz0pd4lk08rcctl4i8j-.jpg?1570084558&s=adc0e9f1607bfda41d63ecd822cee2ba" alt = "image1"></img>
+                            <Carousel.Item >
+                                <img className="" width={1500} height={350} src ="https://images.creativemarket.com/0.1.0/ps/7072219/910/456/m1/fpnw/wm1/k8hiz26iu7xe24vqst7qavteq8cjllf5ndhdw9yxn4q5kwz0pd4lk08rcctl4i8j-.jpg?1570084558&s=adc0e9f1607bfda41d63ecd822cee2ba" alt = "image1"></img>
                                 <Carousel.Caption>
                                         <h3>Second slide label</h3>
                                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                    <img className="d-block w-100" src="https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png" alt="Second slide"
+                                    <img className="" width={1500} height={350} src="https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png" alt="Second slide"
                                     />
                                     <Carousel.Caption>
                                         <h3>Third slide label</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </Carousel.Caption>
-                                </Carousel.Item>                                */}
+                                </Carousel.Item>                               
                         </Carousel>
                     </div>
                 </div>
@@ -53,21 +53,19 @@ const Home = (props) => {
                 </p>
                 <div className ="col-sm-12 row">
                 <Card raised className="bg-dark text-white card">
-                    <Card.Img   className= "card-img"
-                     src="https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png" alt="Card image" />
+                    <Card.Img   className= "card-img" src="https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png" alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title ><h2> AMWAY</h2></Card.Title>
+                        <Card.Title ><h2> AMWAY </h2></Card.Title>
                         <Card.Text className="cardText">
                             <h6 className="cardText">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer. </h6>
-                         </Card.Text>
-                        
+                         </Card.Text>                        
                     </Card.ImgOverlay>
                 </Card>
-                <Card className="order-last bg-dark text-white card">
+                <Card className="bg-dark text-white card">
                     <Card.Img className= "card-img" src="https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png" alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title ><h2> ORIFLAME</h2></Card.Title>
+                        <Card.Title ><h2> ORIFLAME </h2></Card.Title>
                         <Card.Text >
                         <h6 className="cardText">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer. </h6>
