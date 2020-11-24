@@ -14,12 +14,12 @@ function App() {
         <div className="App-header">
           <Header />
         </div>
-        <div className="container-fluid " style ={{marginTop:"20px"}} > 
+        {/* <div className="container-fluid " style ={{marginTop:"20px"}} > 
         <CarouselPage></CarouselPage>
-        </div>
+        </div> */}
         <Switch>
-          <Route path="/home.js" component={Home} />
-          <Route path="/about.js" component={About} />
+          <Route exact path="/home.js" component={Home} />
+          <Route exact path="/about.js" component={About} />
         </Switch>
       </Router>     
        
