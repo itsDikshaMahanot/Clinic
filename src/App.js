@@ -3,9 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
-import CarouselPage from './containers/carouselPage';
 import Home from './containers/Home/home';
 import About from './containers/About/about';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
           <Route exact path="/home.js" component={Home} />
           <Route exact path="/about.js" component={About} />
         </Switch>
-      </Router>     
-       
+      </Router>   
+      <Footer/>
     </React.Fragment>
 
   ); 
